@@ -6,16 +6,16 @@ int main(){
  char a[] = "hello,world";
  char *p = NULL;
 
- p = a;
- while(1){
+    p = a;
+   while(1){
 
- while(*p != '\0'){
-   system("clear");
-   printf("%s\n",p);
-   p++;
-   sleep(1);
-  }
- p = a;
+    while(*p != '\0'){
+      system("clear");
+      printf("%s\n",p);
+      p++;
+      sleep(1);
+     }
+    p = a;
  }
 
 }
